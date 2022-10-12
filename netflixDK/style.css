@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container { /*informa todas as class do container*/
+    width: 100vw;
+
+}
+.logo img { /*Informa o tamanho de todas as imagens filhas de class .logo*/
+    width: 200px;
+}
+main {
+    width: 550px;
+    height: 650px;
+    background-color: rgba(00, 00, 00, 0.8);
+    border-radius: 10px;
+    display: flex;
+}
+.topo {
+    color: white;
+}
+.topo h1 {
+    font-size: 45px;
+}
+.elements {
+    padding: 70px;
+}
+.campos {
+    margin-top: 20px;
+}
+.areaDigitacao, .botao {
+    width: 100%;
+    padding: 18px;
+    margin: 10px 0;
+    background: #333333;
+    border: 0;
+    border-radius: 6px;
+    font-size: 22px; 
+    color: #fff;
+}
+.botao:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: linear transform 0.1s;
+}
+.condicoes {
+    display: flex;
+    justify-content: space-between;
+    color: #8c8c8c;
+    padding-top: 10px; 
+}
+.condicoes a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+.condicoes a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.condicoes input{
+    transform: scale(1.4);
+    
+}
+.condicoes input:hover {
+    cursor: pointer;
+}
+.rodape {
+    color: #8c8c8c;
+    padding-top: 20px;
+}
+.rodape h1 {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.rodape h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.rodape h1 a:hover {
+    text-decoration: underline;
+}
+.rodape p a {
+    color:#004cff;
+    text-decoration: none;
+}
+.rodape p a:hover{
+    text-decoration: underline; 
+}
